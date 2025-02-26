@@ -1,17 +1,26 @@
 import "./App.css";
-import Header from "./components/Header.jsx";
-import Main from "./components/Main.jsx";
-import Footer from "./components/Footer.jsx";
+import Register from "./components/Register";
+import HookExam from "./components/HookExam";
 
 function App() {
   return (
     <>
-      <Header />
-      <Main />
-      <h1>Hey React!</h1>
-      <Footer />
+      <HookExam />
     </>
   );
 }
 
+// import { useState } from "react";
+// import Bulb from "./components/Bulb.jsx";
+// import Counter from "./components/Counter.jsx";
+/*
+function App() {
+  return (
+    <>
+      <Bulb />
+      <Counter />
+    </>
+  );
+}
+*/
 export default App;
